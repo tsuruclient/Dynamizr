@@ -1,18 +1,20 @@
 {
+  "name": "dynamizr",
+  "description": "normalizer dynamics",
+  "version": "1.0.0",
+  "main": "dist/bundle.js",
   "dependencies": {
     "normalizr": "^3.3.0"
   },
-  "name": "dynamizer",
-  "description": "Normalizerは、APIから取得した異なるデータを2つの過程を経てデータを正規化し、Tsuruが読める一意なデータに変換することを目的とした関数です。 以下の2つの過程を要します。",
-  "version": "1.0.0",
-  "main": "dist/index.js",
   "devDependencies": {
     "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.2.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
