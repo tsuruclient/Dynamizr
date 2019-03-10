@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "normalizr": "^3.3.0"
+  },
+  "name": "dynamizer",
+  "description": "Normalizerは、APIから取得した異なるデータを2つの過程を経てデータを正規化し、Tsuruが読める一意なデータに変換することを目的とした関数です。 以下の2つの過程を要します。",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsuruclient/dynamizr.git"
+  },
+  "author": "ONOUE Origami <onoueorigami@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsuruclient/dynamizr/issues"
+  },
+  "homepage": "https://github.com/tsuruclient/dynamizr#readme"
+}
