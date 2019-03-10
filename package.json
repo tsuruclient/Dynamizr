@@ -3,6 +3,7 @@
   "description": "normalizer dynamics",
   "version": "1.0.1",
   "main": "dist/bundle.js",
+  "types": "src/index.d.ts",
   "dependencies": {
     "normalizr": "^3.3.0"
   },

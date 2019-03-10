@@ -2,7 +2,7 @@ module.exports = {
 	mode: "production",
 	entry: "./src/index.ts",
 	output: {
-		filename: "dist/bundle.js",
+		filename: "bundle.js",
 		library: "dynamizr",
 		libraryTarget: "umd"
 	},
