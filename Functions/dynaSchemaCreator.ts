@@ -1,8 +1,8 @@
 import {schema} from 'normalizr';
-import {schemaTypes} from '../../../Enums/schemaTypes';
-import {IReturnedDatumInfo} from '../../../Interfaces/IReturnedDatumInfo';
 import {UnsupportedSchemaType} from '../Exceptions';
 import {IRecursiveSchema, ISchema, ISchemaElement} from '../Interfaces/ISchema';
+import {schemaTypes} from "../Enums/schemaTypes";
+import {IReturnedDatumInfo} from "../Interfaces/IReturnedDatumInfo";
 
 // --- normalizr schema creator ----
 const entityCreator = (schemaData: ISchemaElement) => (
