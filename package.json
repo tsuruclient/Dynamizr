@@ -1,9 +1,13 @@
 {
-  "name": "dynamizr",
-  "description": "normalizer dynamics",
+  "name": "@tsuruclient/metro",
+  "description": "",
   "version": "1.0.2",
   "main": "dist/bundle.js",
-  "types": "src/index.d.ts",
+  "types": "dist/typings/index.d.ts",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "normalizr": "^3.3.0"
   },
@@ -19,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tsuruclient/dynamizr.git"
+    "url": "git+https://github.com/tsuruclient/metro"
   },
   "author": "ONOUE Origami <onoueorigami@gmail.com>",
   "license": "MIT",
