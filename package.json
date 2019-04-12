@@ -1,7 +1,7 @@
 {
   "name": "@tsuruclient/metro",
   "description": "",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/bundle.js",
   "types": "dist/typings/index.d.ts",
   "private": false,
