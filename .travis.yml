@@ -17,5 +17,6 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: QaTykPN22Xf3rwC9sGXw+I2OrX/IJxb8xDoqHbffYa61HE4ekCrzDt2gNvH1ilUxvcANZ9KQOPpSuUkgfmj3mjc1YalsWectOOp1eiIW3BxcB0qYh1EW5JAmhXxrOb+J9yuZGnYjGBCucStPuMgEj+mpijgmAINZTprjvS6wVNl3TyY6vzmu3IY/MUIiPr0OKRuZNPkdOlDwWnn7Kbjtcjr5jmfn+EaVNXsRkfcEo6FoyQGw74EgEeqERxMuSKgiF1Hwh7ET1iZqgsCPxB46dpteFkzShwmqtxX7eRC96xEEtm6E8PJofyIKJobbKzuYRoykHpayrSogdb+8CdIaNv0THnidZuwN/1ZPpNCiZqRRrR33NcRnKmlD437U7SizyId4s7Nl2twQ1B8PT2geuxmW38iUxC8XZ5W3ar3S6RKZZXbGTSMGrj4FgKYvBWXz2LkMAvfTSst1utqtRVm8VigipelhLer9wS23jW9GWghOTZTkdZWjSpCwb/ZcGhSVUiCzzeby7ZMPFDtyWwyAqUfbuEveTaOIJ0yC1INlPOl51mrXJC4H78QI64Xd9kLft1ZwefWsjgBl1t5Ah9R/ksXoTzkdIe+Cx1EFWxtEsO16RcbC4d0h3c895vrd+fE78uCLUPxtYpxdr7g/Oj/b96M0DnGuBrW7DmVHIXe81+8=
-  on:
-    tags: true
+    on:
+      branch: release
+      
