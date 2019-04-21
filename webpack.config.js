@@ -3,7 +3,7 @@ module.exports = {
 	entry: "./src/index.ts",
 	output: {
 		filename: "bundle.js",
-		library: "dynamizr",
+		library: "@tsuruclient/metro",
 		libraryTarget: "umd"
 	},
 	resolve: {
